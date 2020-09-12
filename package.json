@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "unity": "2019.4",
   "description": "tinyBitTurtle gems package",
+  "dependencies": {
+    "com.tinybitturtle.core": "https://github.com/TinyBitTurtle/TinyBitTurtleCore.git"
+  },
   "author": {
     "name": "TinyBit Turtle",
     "url": "https://tinybitturtle.home.blog/",
