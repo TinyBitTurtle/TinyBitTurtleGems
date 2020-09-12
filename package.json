@@ -1,0 +1,12 @@
+{
+  "name": "com.tinybitturtle.gems",
+  "displayName": "TinyBitTurtle Gems",
+  "version": "1.0.0",
+  "unity": "2019.4",
+  "description": "tinyBitTurtle gems package",
+  "author": {
+    "name": "TinyBit Turtle",
+    "url": "https://tinybitturtle.home.blog/",
+    "email": "tinybitturtle@gmail.com"
+  }
+}
