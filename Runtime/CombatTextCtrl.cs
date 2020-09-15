@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using EZObjectPools;
 using UnityEngine;
 using System;
 using TinyBitTurtle.Core;
@@ -25,7 +24,7 @@ namespace TinyBitTurtle.Gems
             public float level;
         }
 
-        public EZObjectPool pool;
+        public CombatText combatText;
         public float duration = 1;
         public float speed = 0.5f;
         [Range(0, 359)]
@@ -40,7 +39,7 @@ namespace TinyBitTurtle.Gems
         {
             GameObject newCombatText;
 
-            pool.TryGetNextObject(pos, Quaternion.identity, out newCombatText);
+            combatText.NewText(pos, out newCombatText);
 
             float angle = Mathf.Clamp(ejectionAngle + UnityEngine.Random.Range(-spreadAngle * 0.5f, spreadAngle * 0.5f), -180, 180);
 
