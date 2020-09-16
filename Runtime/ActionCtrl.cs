@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Object = System.Object;
+using TinyBitTurtle.Core;
 
 namespace TinyBitTurtle.Gems
 {
