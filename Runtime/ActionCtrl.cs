@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Object = System.Object;
 
-namespace TinyBitTurtle
+namespace TinyBitTurtle.Gems
 {
     public partial class  ActionCtrl : SingletonMonoBehaviour<ActionCtrl>
     {

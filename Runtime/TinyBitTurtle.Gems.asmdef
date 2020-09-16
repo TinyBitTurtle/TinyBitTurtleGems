@@ -1,0 +1,15 @@
+{
+    "name": "TinyBitTurtle.Gems",
+    "references": [
+        "GUID:8bda0a8fd8767fd4a98c45a024624c65"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
